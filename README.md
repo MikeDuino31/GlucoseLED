@@ -8,6 +8,13 @@ The Dexcom Share service requires setup of at least one follower to enable the s
 
 This project uses the [WiFiManager](https://github.com/tzapu/WiFiManager) library so that the wifi and Dexcom credentials can be easily set up.
 
+## History
+My daughter has type 1 diabetes, I use this project to easily monitor her glucose level during the night.
+I put a Wemos D1 mini and the LEDs in an old night light and here is how it looks:
+
+![glucodeLED](https://github.com/MikeDuino31/GlucoseLED/assets/172366100/1e25b8fb-0ba1-481a-87f0-f0955e4ca1c3)
+
+
 ## Technical details
 By default the number of LED is 7, data pin is D7 and LED type is WS2812B. The URL of the Dexcom Share service depends on whether your Dexcom account is US based or not. The default URL is for non US based account.
 
