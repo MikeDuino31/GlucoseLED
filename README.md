@@ -1,5 +1,5 @@
 # GlucoseLED
-ESP 8266 project to change LEDs colors depending on glucose level retrieved using Dexcom share service.
+ESP8266 project to change LEDs colors depending on glucose level retrieved using Dexcom share service.
 
 The code to connect to Dexcom Share service is based on [pydexcom](https://github.com/gagebenne/pydexcom).
 
