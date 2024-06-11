@@ -4,9 +4,9 @@ ESP8266 project to change LEDs colors depending on glucose level retrieved using
 The code to connect to Dexcom Share service is based on [pydexcom](https://github.com/gagebenne/pydexcom).
 
 As explained in the page above, the prerequisite for this to work is to download the Dexcom G6 / G5 / G4 mobile app and enable the Share service.
-The Dexcom Share service requires setup of at least one follower to enable the share service, but glucodeLED will use your credentials, not the follower's.
+The Dexcom Share service requires setup of at least one follower to enable the share service, but GlucoseLED will use your credentials, not the follower's.
 
-This project uses the [WiFiManager](https://github.com/tzapu/WiFiManager) library so that the wifi and Dexcom credentials can be easily set up.
+This project uses the [WiFiManager](https://github.com/tzapu/WiFiManager) library so that the WiFi and Dexcom credentials can be easily set up.
 
 ## History
 My daughter has type 1 diabetes, I use this project to easily monitor her glucose level during the night.
