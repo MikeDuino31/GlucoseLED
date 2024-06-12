@@ -1,12 +1,12 @@
 # GlucoseLED
-ESP8266 project to change LEDs colors depending on glucose level retrieved using Dexcom share service.
+ESP8266 project to change LEDs colors depending on glucose level retrieved from Dexcom Share service.
 
 The code to connect to Dexcom Share service is based on [pydexcom](https://github.com/gagebenne/pydexcom).
 
 As explained in the page above, the prerequisite for this to work is to download the Dexcom G6 / G5 / G4 mobile app and enable the Share service.
 The Dexcom Share service requires setup of at least one follower to enable the share service, but GlucoseLED will use your credentials, not the follower's.
 
-This project uses the [WiFiManager](https://github.com/tzapu/WiFiManager) library so that the WiFi and Dexcom credentials can be easily set up and [FastLED](https://github.com/FastLED/FastLED) library to control the LEDS.
+This project uses the [WiFiManager](https://github.com/tzapu/WiFiManager) library so that the WiFi and Dexcom credentials can be easily set up and [FastLED](https://github.com/FastLED/FastLED) library to control the LEDs.
 
 ## History
 My daughter has type 1 diabetes, I use this project to easily monitor her glucose level during the night.
@@ -16,7 +16,7 @@ I put a Wemos D1 mini and the LEDs in an old night light and here is how it look
 
 
 ## Technical details
-By default the number of LED is 7, data pin is D7 and LED type is WS2812B. The URL of the Dexcom Share service depends on whether your Dexcom account is US based or not. The default URL is for non US based account.
+By default the number of LEDs is 7, data pin is D7 and LED type is WS2812B. The URL of the Dexcom Share service depends on whether your Dexcom account is US based or not. The default URL is for non US based account.
 
 All these settings along with the glucose level ranges and colors can be easily changed in the code.
 
